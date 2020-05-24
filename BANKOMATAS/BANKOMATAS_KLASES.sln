@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BANKOMATAS", "BANKOMATAS.csproj", "{6C9F47C9-ADEE-483C-A849-678F234D4220}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BANKOMATAS_KLASES", "BANKOMATAS_KLASES.csproj", "{5E7E1A1D-E852-4879-BC33-2DB5318235EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6C9F47C9-ADEE-483C-A849-678F234D4220}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6C9F47C9-ADEE-483C-A849-678F234D4220}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6C9F47C9-ADEE-483C-A849-678F234D4220}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6C9F47C9-ADEE-483C-A849-678F234D4220}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E7E1A1D-E852-4879-BC33-2DB5318235EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E7E1A1D-E852-4879-BC33-2DB5318235EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E7E1A1D-E852-4879-BC33-2DB5318235EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E7E1A1D-E852-4879-BC33-2DB5318235EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {CC28F433-2B0A-41D7-88DA-E1B5E170CB85}
+		SolutionGuid = {4D5510B4-0609-4E31-BDF6-46EC3C644FBE}
 	EndGlobalSection
 EndGlobal

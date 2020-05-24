@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6C9F47C9-ADEE-483C-A849-678F234D4220}</ProjectGuid>
+    <ProjectGuid>{5E7E1A1D-E852-4879-BC33-2DB5318235EE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>BANKOMATAS</RootNamespace>
-    <AssemblyName>BANKOMATAS</AssemblyName>
+    <RootNamespace>BANKOMATAS_KLASES</RootNamespace>
+    <AssemblyName>BANKOMATAS_KLASES</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\..\..\..\TEMP\Program.cs">
-      <Link>Program.cs</Link>
-    </Compile>
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Tranzakcija.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -1,7 +1,0 @@
-C:\Users\UUURRRR\Desktop\Kursai\C#\BANKOMATAS\bin\Debug\BANKOMATAS.exe.config
-C:\Users\UUURRRR\Desktop\Kursai\C#\BANKOMATAS\bin\Debug\BANKOMATAS.exe
-C:\Users\UUURRRR\Desktop\Kursai\C#\BANKOMATAS\bin\Debug\BANKOMATAS.pdb
-C:\Users\UUURRRR\Desktop\Kursai\C#\BANKOMATAS\obj\Debug\BANKOMATAS.csprojAssemblyReference.cache
-C:\Users\UUURRRR\Desktop\Kursai\C#\BANKOMATAS\obj\Debug\BANKOMATAS.exe
-C:\Users\UUURRRR\Desktop\Kursai\C#\BANKOMATAS\obj\Debug\BANKOMATAS.pdb
-C:\Users\UUURRRR\Desktop\Kursai\C#\BANKOMATAS\obj\Debug\BANKOMATAS.csproj.CoreCompileInputs.cache

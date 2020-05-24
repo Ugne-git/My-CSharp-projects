@@ -1,0 +1,13 @@
+C:\Users\UUURRRR\Desktop\Kursai\C#\BANKOMATAS_KLASES\obj\Debug\BANKOMATAS_KLASES.csprojAssemblyReference.cache
+C:\Users\UUURRRR\Desktop\Kursai\C#\BANKOMATAS_KLASES\bin\Debug\BANKOMATAS_KLASES.exe.config
+C:\Users\UUURRRR\Desktop\Kursai\C#\BANKOMATAS_KLASES\bin\Debug\BANKOMATAS_KLASES.exe
+C:\Users\UUURRRR\Desktop\Kursai\C#\BANKOMATAS_KLASES\bin\Debug\BANKOMATAS_KLASES.pdb
+C:\Users\UUURRRR\Desktop\Kursai\C#\BANKOMATAS_KLASES\obj\Debug\BANKOMATAS_KLASES.exe
+C:\Users\UUURRRR\Desktop\Kursai\C#\BANKOMATAS_KLASES\obj\Debug\BANKOMATAS_KLASES.pdb
+C:\Users\Ugnė\Documents\Mokslai\Kursai\C#\BANKOMATAS_KLASES\obj\Debug\BANKOMATAS_KLASES.csprojAssemblyReference.cache
+C:\Users\Ugnė\Documents\Mokslai\Kursai\C#\BANKOMATAS_KLASES\obj\Debug\BANKOMATAS_KLASES.csproj.CoreCompileInputs.cache
+C:\Users\Ugnė\Documents\Mokslai\Kursai\C#\BANKOMATAS_KLASES\obj\Debug\BANKOMATAS_KLASES.exe
+C:\Users\Ugnė\Documents\Mokslai\Kursai\C#\BANKOMATAS_KLASES\obj\Debug\BANKOMATAS_KLASES.pdb
+C:\Users\Ugnė\Documents\Mokslai\Kursai\C#\BANKOMATAS_KLASES\bin\Debug\BANKOMATAS_KLASES.exe.config
+C:\Users\Ugnė\Documents\Mokslai\Kursai\C#\BANKOMATAS_KLASES\bin\Debug\BANKOMATAS_KLASES.exe
+C:\Users\Ugnė\Documents\Mokslai\Kursai\C#\BANKOMATAS_KLASES\bin\Debug\BANKOMATAS_KLASES.pdb
