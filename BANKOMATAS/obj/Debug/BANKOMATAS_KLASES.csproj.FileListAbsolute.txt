@@ -11,3 +11,10 @@ C:\Users\Ugnė\Documents\Mokslai\Kursai\C#\BANKOMATAS_KLASES\obj\Debug\BANKOMATA
 C:\Users\Ugnė\Documents\Mokslai\Kursai\C#\BANKOMATAS_KLASES\bin\Debug\BANKOMATAS_KLASES.exe.config
 C:\Users\Ugnė\Documents\Mokslai\Kursai\C#\BANKOMATAS_KLASES\bin\Debug\BANKOMATAS_KLASES.exe
 C:\Users\Ugnė\Documents\Mokslai\Kursai\C#\BANKOMATAS_KLASES\bin\Debug\BANKOMATAS_KLASES.pdb
+C:\Users\Ugnė\Documents\GitHub\My-CSharp-projects\BANKOMATAS\bin\Debug\BANKOMATAS_KLASES.exe.config
+C:\Users\Ugnė\Documents\GitHub\My-CSharp-projects\BANKOMATAS\bin\Debug\BANKOMATAS_KLASES.exe
+C:\Users\Ugnė\Documents\GitHub\My-CSharp-projects\BANKOMATAS\bin\Debug\BANKOMATAS_KLASES.pdb
+C:\Users\Ugnė\Documents\GitHub\My-CSharp-projects\BANKOMATAS\obj\Debug\BANKOMATAS_KLASES.csprojAssemblyReference.cache
+C:\Users\Ugnė\Documents\GitHub\My-CSharp-projects\BANKOMATAS\obj\Debug\BANKOMATAS_KLASES.csproj.CoreCompileInputs.cache
+C:\Users\Ugnė\Documents\GitHub\My-CSharp-projects\BANKOMATAS\obj\Debug\BANKOMATAS_KLASES.exe
+C:\Users\Ugnė\Documents\GitHub\My-CSharp-projects\BANKOMATAS\obj\Debug\BANKOMATAS_KLASES.pdb

@@ -102,7 +102,9 @@ namespace BANKOMATAS_KLASES
                     Console.Write(" Įveskite PIN: ");
                     userPIN = Console.ReadLine();
                 }
-                else
+ 
+
+                else if (userPIN == PIN)
                 {
                     Console.Clear();
                     Console.WriteLine("---------------------------------------------");
@@ -110,7 +112,17 @@ namespace BANKOMATAS_KLASES
                     correctPIN = true;
                     break;
                 }
+                else
+                {
+                    Console.Clear();
+                    Console.WriteLine("-----------------------------------------------");
+                    Console.WriteLine("Viršytas bandymų skaičius. Kortele uzblokuota!");
+                    Console.WriteLine("-----------------------------------------------");
+                    Console.ReadLine();
+                }
+
             }
+ 
             return correctPIN;
         }
 
@@ -344,18 +356,39 @@ namespace BANKOMATAS_KLASES
             else if (cash > Convert.ToInt32(invoiceBalance))
             {
                 Console.Clear();
-                Console.WriteLine("---------------------------------------------------------------");
-                Console.WriteLine(" Sąskaitos likutis nepakankamas.Nurodykite kitą sumą.");
-                Console.WriteLine("---------------------------------------------------------------");
-                Cashout();
+                Console.WriteLine("--------------------------------------------------------------------------");
+                Console.WriteLine(" Sąskaitos likutis nepakankamas.1-Nurodyti kitą sumą arba 2 - grįžti atgal");
+                Console.WriteLine("--------------------------------------------------------------------------");
+                var userinput = Console.ReadLine();
+                if (userinput == "1")
+                {
+                    Console.Clear();
+                    Cashout();
+                }
+                else
+                {
+                    Console.Clear();
+                    showMainMenu();
+                }
+                
             }
             else
             {
                 Console.Clear();
-                Console.WriteLine("---------------------------------------------------------------");
-                Console.WriteLine(" Neteisingai nurodyta suma. Nurodykite kitą sumą");
-                Console.WriteLine("---------------------------------------------------------------");
-                Cashout();
+                Console.WriteLine("----------------------------------------------------------------------");
+                Console.WriteLine(" Neteisingai nurodyta suma. 1-Nurodyti kitą sumą arba 2 - grįžti atgal");
+                Console.WriteLine("----------------------------------------------------------------------");
+                var userinput = Console.ReadLine();
+                if (userinput == "1")
+                {
+                    Console.Clear();
+                    Cashout();
+                }
+                else
+                {
+                    Console.Clear();
+                    showMainMenu();
+                }
             }
         }
 
