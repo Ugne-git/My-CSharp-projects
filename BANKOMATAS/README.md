@@ -1,4 +1,4 @@
-# My-CSharp-projects
+# My first C# project
 This is my first C# project. The purporse of this project is to create code for an ATM system. The code simulates these ATM functionalities:
 1. PIN Enter
 2. PIN Check
