@@ -6,7 +6,7 @@ namespace GradeBook.Tests
     public class BookTests
     {
         [Fact]
-        public void Test1()
+        public void BookCalculatesStats()
         {
             // arrange section - this is where you put together all your test data and arange the objects and the values that you going to use
             var book = new Book("");
