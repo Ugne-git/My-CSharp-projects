@@ -23,5 +23,18 @@ namespace GradeBook.Tests
             Assert.Equal(2.5, result.Low, 2);
         
         }
+        [Fact]
+        public void BorderValuesAreChecked()
+        {
+            // arrange section - this is where you put together all your test data and arange the objects and the values that you going to use
+            var book = new Book("");
+            book.AddGrade(10.4);
+
+            var result = book.GetStats();
+         
+            Assert.NotEqual(10.4, result.High);
+           
+        
+        }
     }
 }

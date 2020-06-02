@@ -14,7 +14,10 @@ namespace GradeBook
         //methods
         public void AddGrade(double grade)
         {
+            if (grade <= 10 && grade >= 0)
+            {
             grades.Add(grade);
+            }
         }
 
         public Stats GetStats()
