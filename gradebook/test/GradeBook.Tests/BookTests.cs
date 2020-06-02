@@ -29,10 +29,10 @@ namespace GradeBook.Tests
             // arrange section - this is where you put together all your test data and arange the objects and the values that you going to use
             var book = new Book("");
             book.AddGrade(10.4);
+            book.AddGrade(-1.1);
 
             var result = book.GetStats();
-         
-            Assert.NotEqual(10.4, result.High);
+            Assert.Equal(0, result.Count);
            
         
         }

@@ -18,6 +18,10 @@ namespace GradeBook
             {
             grades.Add(grade);
             }
+            else
+            {
+                Console.WriteLine("Invalid value");
+            }
         }
 
         public Stats GetStats()
@@ -26,12 +30,14 @@ namespace GradeBook
             result.Average = 0.0;
             result.High = double.MinValue;
             result.Low = double.MaxValue;
+            result.Count = 0;
 
             foreach(var grade in grades)
             {
                 result.High = Math.Max(grade, result.High);
                 result.Low = Math.Min(grade, result.Low);
                 result.Average += grade;
+                result.Count ++;
             }
 
             result.Average /= grades.Count;
@@ -39,9 +45,12 @@ namespace GradeBook
 
         }
 
+
         //fields
         private List<double> grades;
         public string Name;
+
+    
 
     }
 }
