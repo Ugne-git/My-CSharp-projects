@@ -26,7 +26,6 @@ namespace GradeBook.Tests
         [Fact]
         public void BorderValuesAreChecked()
         {
-            // arrange section - this is where you put together all your test data and arange the objects and the values that you going to use
             var book = new Book("");
             book.AddGrade(10.4);
             book.AddGrade(-1.1);
@@ -34,7 +33,6 @@ namespace GradeBook.Tests
             var result = book.GetStats();
             Assert.Equal(0, result.Count);
            
-        
         }
     }
 }

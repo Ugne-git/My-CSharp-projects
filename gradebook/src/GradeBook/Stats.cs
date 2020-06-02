@@ -7,5 +7,7 @@ namespace GradeBook
         public double Low;
 
         public int Count;
+
+        public string Iskaita;
     }
 }
