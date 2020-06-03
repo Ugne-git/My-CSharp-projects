@@ -20,7 +20,7 @@ namespace GradeBook
             }
             else
             {
-                throw new ArgumentException($"Ivalid {nameof(grade)}");
+                throw new ArgumentException($"Invalid {nameof(grade)}");
             }
         }
 
@@ -94,7 +94,13 @@ namespace GradeBook
 
         //fields
         private List<double> grades;
-        public string Name;
+
+        public string Name
+        {
+            get; set;
+          
+        }
+        
 
     
 

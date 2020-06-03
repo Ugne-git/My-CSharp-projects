@@ -29,12 +29,20 @@ namespace GradeBook.Tests
         public void BorderValuesAreChecked()
         {
             var book = new Book("");
-            book.AddGrade(10.4);
-            book.AddGrade(-1.1);
 
-            var result = book.GetStats();
-            Assert.Equal(0, result.Count);
+            var ex = Assert.Throws<ArgumentException>(() => book.AddGrade(-1.1));
+            Assert.Contains("Invalid grade", ex.Message);
+            var ex2 = Assert.Throws<ArgumentException>(() => book.AddGrade(15));
+            Assert.Contains("Invalid grade", ex2.Message);
            
         }
+        //[Fact]
+        // public void CheckBookName()
+        // {
+        //    var book = new Book("");
+        //     book.Name = "Computer Science grades";
+
+        //     Assert.Equal("Computer Science grades", book.Name);
+        // }
     }
 }
