@@ -21,6 +21,8 @@ namespace GradeBook.Tests
             Assert.Equal(5.97, result.Average, 2);
             Assert.Equal(9.4, result.High, 2);
             Assert.Equal(2.5, result.Low, 2);
+            Assert.Equal('C', result.USGrade);
+            Assert.Equal("Satisfactory", result.GradeDescr);
         
         }
         [Fact]

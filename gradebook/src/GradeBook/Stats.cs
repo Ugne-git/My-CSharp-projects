@@ -5,9 +5,9 @@ namespace GradeBook
         public double Average;
         public double High;
         public double Low;
-
         public int Count;
-
-        public string Iskaita;
+        public char USGrade;
+        public string GradeDescr;
+        
     }
 }
