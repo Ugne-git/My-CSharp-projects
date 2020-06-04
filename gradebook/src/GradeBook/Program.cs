@@ -12,7 +12,7 @@ namespace GradeBook
 
             while(true)
             {
-                Console.WriteLine("Enter a greade or paste 'q' to quit");
+                Console.WriteLine("Enter a grade or paste 'q' to quit");
                 var input = Console.ReadLine();
                 if(input == "q")
                 {
