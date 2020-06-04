@@ -5,3 +5,10 @@ C:\Users\Ugnė\source\repos\Codewars solutions\Codewars solutions\obj\Debug\Code
 C:\Users\Ugnė\source\repos\Codewars solutions\Codewars solutions\obj\Debug\Codewars solutions.csproj.CoreCompileInputs.cache
 C:\Users\Ugnė\source\repos\Codewars solutions\Codewars solutions\obj\Debug\Codewars solutions.exe
 C:\Users\Ugnė\source\repos\Codewars solutions\Codewars solutions\obj\Debug\Codewars solutions.pdb
+C:\Users\Ugnė\Documents\GitHub\My-CSharp-projects\Codewars solutions\Codewars solutions\bin\Debug\Codewars solutions.exe.config
+C:\Users\Ugnė\Documents\GitHub\My-CSharp-projects\Codewars solutions\Codewars solutions\bin\Debug\Codewars solutions.exe
+C:\Users\Ugnė\Documents\GitHub\My-CSharp-projects\Codewars solutions\Codewars solutions\bin\Debug\Codewars solutions.pdb
+C:\Users\Ugnė\Documents\GitHub\My-CSharp-projects\Codewars solutions\Codewars solutions\obj\Debug\Codewars solutions.csprojAssemblyReference.cache
+C:\Users\Ugnė\Documents\GitHub\My-CSharp-projects\Codewars solutions\Codewars solutions\obj\Debug\Codewars solutions.csproj.CoreCompileInputs.cache
+C:\Users\Ugnė\Documents\GitHub\My-CSharp-projects\Codewars solutions\Codewars solutions\obj\Debug\Codewars solutions.exe
+C:\Users\Ugnė\Documents\GitHub\My-CSharp-projects\Codewars solutions\Codewars solutions\obj\Debug\Codewars solutions.pdb
