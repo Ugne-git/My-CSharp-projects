@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 namespace GradeBook
 {
+    public delegate void GradeAddedDelegate(object sender, EventArgs args); //defining event
     public class Book
     {
         //constructor
@@ -17,12 +18,17 @@ namespace GradeBook
             if (grade <= 10 && grade >= 0)
             {
             grades.Add(grade);
+            if(GradeAdded != null)
+            {
+                GradeAdded(this, new EventArgs()); // invoking event
+            }
             }
             else
             {
                 throw new ArgumentException($"Invalid {nameof(grade)}");
             }
         }
+
 
         public Stats GetStats()
         {
@@ -91,18 +97,16 @@ namespace GradeBook
 
         }
 
-
         //fields
+        public event GradeAddedDelegate GradeAdded;// adding delegate event field
         private List<double> grades;
 
         public string Name
         {
-            get; set;
+            get; 
+            set; // if private - it's readonly property. you cannot change the book name once it is setted
           
         }
         
-
-    
-
     }
 }

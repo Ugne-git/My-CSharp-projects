@@ -8,7 +8,7 @@ namespace GradeBook
         static void Main(string[] args)
         {
             var book = new Book("Ugne's Grade Book");
-
+            book.GradeAdded += OnGradeAdded;
 
             while(true)
             {
@@ -47,7 +47,11 @@ namespace GradeBook
             Console.WriteLine($"The average grade is - {stats.Average:N2}");
             Console.WriteLine($"The average grade description is \"{stats.GradeDescr}\"");
             Console.WriteLine($"The average grade converted in US Grade is - \"{stats.USGrade}\"");
-
+        }
+        //the method of event which is called when the grade is added
+        static void OnGradeAdded(object sender, EventArgs e)
+        {
+            Console.WriteLine("A grade was added");
         }
     }
 }
