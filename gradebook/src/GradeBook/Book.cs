@@ -5,13 +5,6 @@ namespace GradeBook
 {
     public delegate void GradeAddedDelegate(object sender, EventArgs args); //defining event
     
-    public interface IBook
-    {
-        void AddGrade(double grade);
-        Stats GetStats();
-        string Name { get; }
-        event GradeAddedDelegate GradeAdded;
-    }
 
     // book is inherited from NamedObject, it means Book is a NamedObject
     public class InMemoryBook : Book
