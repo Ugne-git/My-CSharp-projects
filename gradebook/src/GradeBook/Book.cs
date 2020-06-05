@@ -4,16 +4,26 @@ using System.Collections.Generic;
 namespace GradeBook
 {
     public delegate void GradeAddedDelegate(object sender, EventArgs args); //defining event
-    public class Book
+    
+    public interface IBook
+    {
+        void AddGrade(double grade);
+        Stats GetStats();
+        string Name { get; }
+        event GradeAddedDelegate GradeAdded;
+    }
+
+    // book is inherited from NamedObject, it means Book is a NamedObject
+    public class InMemoryBook : Book
     {
         //constructor
-        public Book(string name)
+        public InMemoryBook(string name) : base("")
         {
             grades = new List<double>();
             Name = name;
         }
         //methods
-        public void AddGrade(double grade)
+        public override void AddGrade(double grade)
         {
             if (grade <= 10 && grade >= 0)
             {
@@ -30,7 +40,7 @@ namespace GradeBook
         }
 
 
-        public Stats GetStats()
+        public override Stats GetStats()
         {
             var result = new Stats();
             result.Average = 0.0;
@@ -98,15 +108,8 @@ namespace GradeBook
         }
 
         //fields
-        public event GradeAddedDelegate GradeAdded;// adding delegate event field
+        public override event GradeAddedDelegate GradeAdded;// adding delegate event field
         private List<double> grades;
-
-        public string Name
-        {
-            get; 
-            set; // if private - it's readonly property. you cannot change the book name once it is setted
-          
-        }
         
     }
 }

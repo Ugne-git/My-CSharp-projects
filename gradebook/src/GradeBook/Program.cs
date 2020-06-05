@@ -7,37 +7,9 @@ namespace GradeBook
     {
         static void Main(string[] args)
         {
-            var book = new Book("Ugne's Grade Book");
+            var book = new InMemoryBook("Ugne's Grade Book");
             book.GradeAdded += OnGradeAdded;
-
-            while(true)
-            {
-                Console.WriteLine("Enter a grade or paste 'q' to quit");
-                var input = Console.ReadLine();
-                if(input == "q")
-                {
-                    break;
-
-                }
-                try
-                {
-                var grade = double.Parse(input);
-                book.AddGrade(grade);
-                }
-                catch(ArgumentException ex)
-                {
-                    Console.WriteLine(ex.Message);
-                }
-                catch(FormatException ex)
-                {
-                    Console.WriteLine(ex.Message);
-                }
-                finally
-                {
-                    Console.WriteLine("**");
-                }
-            }
-            
+            EnterGrades(book);
 
             var stats = book.GetStats();
 
@@ -48,6 +20,37 @@ namespace GradeBook
             Console.WriteLine($"The average grade description is \"{stats.GradeDescr}\"");
             Console.WriteLine($"The average grade converted in US Grade is - \"{stats.USGrade}\"");
         }
+
+        private static void EnterGrades(IBook book)
+        {
+            while (true)
+            {
+                Console.WriteLine("Enter a grade or paste 'q' to quit");
+                var input = Console.ReadLine();
+                if (input == "q")
+                {
+                    break;
+                }
+                try
+                {
+                    var grade = double.Parse(input);
+                    book.AddGrade(grade);
+                }
+                catch (ArgumentException ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+                catch (FormatException ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+                finally
+                {
+                    Console.WriteLine("**");
+                }
+            }
+        }
+
         //the method of event which is called when the grade is added
         static void OnGradeAdded(object sender, EventArgs e)
         {

@@ -9,7 +9,7 @@ namespace GradeBook.Tests
         public void BookCalculatesStats()
         {
             // arrange section - this is where you put together all your test data and arange the objects and the values that you going to use
-            var book = new Book("");
+            var book = new InMemoryBook("");
             book.AddGrade(9.4);
             book.AddGrade(2.5);
             book.AddGrade(6);
@@ -28,7 +28,7 @@ namespace GradeBook.Tests
         [Fact]
         public void BorderValuesAreChecked()
         {
-            var book = new Book("");
+            var book = new InMemoryBook("");
 
             var ex = Assert.Throws<ArgumentException>(() => book.AddGrade(-1.1));
             Assert.Contains("Invalid grade", ex.Message);
