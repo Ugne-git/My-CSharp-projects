@@ -17,8 +17,8 @@ namespace GradeBook
             Console.WriteLine($"The lowest grade is - {stats.Low}");
             Console.WriteLine($"The highest grade is - {stats.High}");
             Console.WriteLine($"The average grade is - {stats.Average:N2}");
-            Console.WriteLine($"The average grade description is \"{stats.GradeDescr}\"");
-            Console.WriteLine($"The average grade converted in US Grade is - \"{stats.USGrade}\"");
+            Console.WriteLine($"The average grade description is \"{stats.ConvertGradeToDescr}\"");
+            Console.WriteLine($"The average grade converted in US Grade is - \"{stats.ConvertGradeToUSGrade}\"");
         }
 
         private static void EnterGrades(IBook book)
